@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: rgb(140, 97, 97);
+
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 75px;
+  padding-left: 25px;
+  font-size: x-large;
+  font-family: Papyrus;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.cart-num {
+  background-color: grey;
   color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.all-places {
+  display: inline;
+
+  margin: auto;
+
+  background-color: lightcoral;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-item {
+  border-color: rgba(223, 204, 204, 0.467);
+  border-radius: 10px;
+  width: 1000px;
+  margin: auto;
+  border-style: solid;
+
+  border-width: 7px;
+}
+
+.place-item-img {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.place-item-body {
+  margin: 10px;
+}
+
+.btn {
+  background-color: rgb(187, 163, 136);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  border-radius: 3px;
+  border-width: 0px;
+  display: flex;
+  font-family: Papyrus;
+  font-size: x-large;
+}
+
+a {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: none;
+  cursor: pointer;
+  text-indent: 50px;
+  letter-spacing: 5px;
+}
+
+.cart-container {
+  margin: 20px;
+}
+
+.card-cart {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.card-img-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
